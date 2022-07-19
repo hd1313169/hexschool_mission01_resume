@@ -1,0 +1,156 @@
+*, *::after, *::before {
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "SF Pro Text", "Microsoft JhengHei", "Roboto", "Helvetica Neue", Arial, sans-serif;
+    line-height: 1.5;
+}
+
+img{
+    vertical-align: middle;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.block{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.bc-blue{
+    background-color: #415165;
+    padding-top: 24px;
+    padding-bottom: 40px;
+}
+
+.txt-red{
+    color: #A00404;
+}
+
+.txt-white{
+    color: white;
+}
+
+.fz-32{
+    font-size: 32px;
+}
+
+.fz-24{
+    font-size: 24px;
+}
+
+.fz-20{
+    font-size: 20px;
+}
+/* 英文字重 */
+.e-fw-l{
+    font-weight: 300;
+}
+.e-fw-r{
+    font-weight: 400;
+}
+.e-fw-sb{
+    font-weight: 600;
+}
+/* 中文字重 */
+.c-fw-m{
+    font-weight: 500;
+}
+.c-fw-l{
+    font-weight: 300;
+}
+/* border */
+.bd{
+    padding-bottom: 7px;
+    border-bottom: 1px solid #000;
+}
+.bd-white{
+    width: 996px;
+    padding-bottom: 7px;
+    border-bottom: 1px solid white;
+}
+/* margin */
+.mb-8{
+    margin-bottom: 8px;
+}
+
+.mb-16{
+    margin-bottom: 16px;
+}
+
+.mb-24{
+    margin-bottom: 24px;
+}
+
+.mb-40{
+    margin-bottom: 40px;
+}
+
+.mb-48{
+    margin-bottom: 48px;
+}
+
+.mb-64{
+    margin-bottom: 64px;
+}
+
+.mb-80{
+    margin-bottom: 80px;
+}
+
+.name{
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 95px;
+    padding-top: 40px;
+    padding-bottom: 22px;
+    border-bottom: 2px solid #000;
+}
+
+.photo{
+    width: 324px;
+}
+
+.skill-list{
+    width: 220px;
+    margin: 0 auto;
+    border-left: 1px solid white;
+    padding-left: 23px;
+}
+
+.work-list{
+    margin-left: 24px;
+    padding-left: 24px;
+    border-left: 1px solid #96A9C4;
+}
+.w-642{
+    width: 642px;
+}
+
+.contact-info{
+    width: 530px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contact-info a:hover{
+    text-decoration: underline;
+}
+.icon {
+    width: 530px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.icon img{
+    margin-left: 24px;
+}
+
+.icon img:hover{
+    filter: brightness(90%);
+}
